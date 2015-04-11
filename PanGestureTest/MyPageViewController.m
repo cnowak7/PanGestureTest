@@ -28,13 +28,13 @@
     
     self.dataSource = self;
     self.delegate = self;
-    for(UIView* view in self.view.subviews)
-    {
-        if([view isKindOfClass:[UIScrollView class]]){
-            UIScrollView* scrollView=(UIScrollView*)view;
-            [scrollView setScrollEnabled:NO];
-        }
-    }
+//    for(UIView* view in self.view.subviews)
+//    {
+//        if([view isKindOfClass:[UIScrollView class]]){
+//            UIScrollView* scrollView=(UIScrollView*)view;
+//            [scrollView setScrollEnabled:NO];
+//        }
+//    }
 }
 
 - (UIViewController*)viewControllerForPageNumber:(NSUInteger)pageNumber
@@ -76,16 +76,16 @@
     }
 }
 
--(void)enableScrolling:(id)sender
-{
-    for(UIView* view in self.view.subviews)
-    {
-        if([view isKindOfClass:[UIScrollView class]]){
-            UIScrollView* scrollView=(UIScrollView*)view;
-            [scrollView setScrollEnabled:YES];
-        }
-    }
-}
+//-(void)enableScrolling:(id)sender
+//{
+//    for(UIView* view in self.view.subviews)
+//    {
+//        if([view isKindOfClass:[UIScrollView class]]){
+//            UIScrollView* scrollView=(UIScrollView*)view;
+//            [scrollView setScrollEnabled:YES];
+//        }
+//    }
+//}
 
 /*
 #pragma mark - Navigation

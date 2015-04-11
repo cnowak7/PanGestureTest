@@ -2,7 +2,7 @@
 #import <UIKit/UIKit.h>
 
 @protocol SubTableViewCellDelegate <NSObject>
-    -(void)enableScrolling:(id)sender;
+//    -(void)enableScrolling:(id)sender;
 @end
 
 @interface SubTableViewCell : UITableViewCell <UIGestureRecognizerDelegate>

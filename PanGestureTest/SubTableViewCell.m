@@ -156,7 +156,7 @@ static CGFloat const kBounceValue = 20.0f;
             self.startingRightLayoutConstraintConstant = self.contentViewRightConstraint.constant;
         }];
     }];
-    [self.delegate enableScrolling:self];
+//    [self.delegate enableScrolling:self];
 }
 
 - (void)updateConstraintsIfNeeded:(BOOL)animated completion:(void (^)(BOOL finished))completion {
