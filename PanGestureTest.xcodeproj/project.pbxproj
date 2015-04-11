@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		834486701AD771EC00A00CC3 /* MyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8344866F1AD771EC00A00CC3 /* MyPageViewController.m */; };
 		836E5E8F1ACF24BF0087D68C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836E5E8E1ACF24BF0087D68C /* main.m */; };
 		836E5E921ACF24BF0087D68C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836E5E911ACF24BF0087D68C /* AppDelegate.m */; };
 		836E5E951ACF24BF0087D68C /* PanGestureTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 836E5E931ACF24BF0087D68C /* PanGestureTest.xcdatamodeld */; };
-		836E5E981ACF24BF0087D68C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836E5E971ACF24BF0087D68C /* ViewController.m */; };
 		836E5E9B1ACF24BF0087D68C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836E5E991ACF24BF0087D68C /* Main.storyboard */; };
 		836E5E9D1ACF24BF0087D68C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836E5E9C1ACF24BF0087D68C /* Images.xcassets */; };
 		836E5EA01ACF24BF0087D68C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 836E5E9E1ACF24BF0087D68C /* LaunchScreen.xib */; };
 		836E5EAC1ACF24BF0087D68C /* PanGestureTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836E5EAB1ACF24BF0087D68C /* PanGestureTestTests.m */; };
+		83F948401ACF26C4003A2A1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F9483B1ACF26C4003A2A1A /* ViewController.m */; };
+		83F948411ACF26C4003A2A1A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F9483D1ACF26C4003A2A1A /* TableViewController.m */; };
+		83F948421ACF26C4003A2A1A /* SubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F9483F1ACF26C4003A2A1A /* SubTableViewController.m */; };
+		83F948451ACF26E7003A2A1A /* DTCustomColoredAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F948441ACF26E7003A2A1A /* DTCustomColoredAccessory.m */; };
+		83F948511ACF34D5003A2A1A /* SubTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F948501ACF34D5003A2A1A /* SubTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +33,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8344866E1AD771EC00A00CC3 /* MyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPageViewController.h; sourceTree = "<group>"; };
+		8344866F1AD771EC00A00CC3 /* MyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPageViewController.m; sourceTree = "<group>"; };
 		836E5E891ACF24BF0087D68C /* PanGestureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanGestureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836E5E8D1ACF24BF0087D68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		836E5E8E1ACF24BF0087D68C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		836E5E901ACF24BF0087D68C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		836E5E911ACF24BF0087D68C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		836E5E941ACF24BF0087D68C /* PanGestureTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PanGestureTest.xcdatamodel; sourceTree = "<group>"; };
-		836E5E961ACF24BF0087D68C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		836E5E971ACF24BF0087D68C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		836E5E9A1ACF24BF0087D68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		836E5E9C1ACF24BF0087D68C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		836E5E9F1ACF24BF0087D68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		836E5EA51ACF24BF0087D68C /* PanGestureTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836E5EAA1ACF24BF0087D68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		836E5EAB1ACF24BF0087D68C /* PanGestureTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureTestTests.m; sourceTree = "<group>"; };
+		83F9483A1ACF26C4003A2A1A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83F9483B1ACF26C4003A2A1A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83F9483C1ACF26C4003A2A1A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		83F9483D1ACF26C4003A2A1A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		83F9483E1ACF26C4003A2A1A /* SubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTableViewController.h; sourceTree = "<group>"; };
+		83F9483F1ACF26C4003A2A1A /* SubTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTableViewController.m; sourceTree = "<group>"; };
+		83F948431ACF26E7003A2A1A /* DTCustomColoredAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCustomColoredAccessory.h; sourceTree = "<group>"; };
+		83F948441ACF26E7003A2A1A /* DTCustomColoredAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCustomColoredAccessory.m; sourceTree = "<group>"; };
+		83F9484F1ACF34D5003A2A1A /* SubTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTableViewCell.h; sourceTree = "<group>"; };
+		83F948501ACF34D5003A2A1A /* SubTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +100,18 @@
 			children = (
 				836E5E901ACF24BF0087D68C /* AppDelegate.h */,
 				836E5E911ACF24BF0087D68C /* AppDelegate.m */,
-				836E5E961ACF24BF0087D68C /* ViewController.h */,
-				836E5E971ACF24BF0087D68C /* ViewController.m */,
+				83F9483A1ACF26C4003A2A1A /* ViewController.h */,
+				83F9483B1ACF26C4003A2A1A /* ViewController.m */,
+				83F9483C1ACF26C4003A2A1A /* TableViewController.h */,
+				83F9483D1ACF26C4003A2A1A /* TableViewController.m */,
+				83F9483E1ACF26C4003A2A1A /* SubTableViewController.h */,
+				83F9483F1ACF26C4003A2A1A /* SubTableViewController.m */,
+				83F948431ACF26E7003A2A1A /* DTCustomColoredAccessory.h */,
+				83F948441ACF26E7003A2A1A /* DTCustomColoredAccessory.m */,
+				83F9484F1ACF34D5003A2A1A /* SubTableViewCell.h */,
+				83F948501ACF34D5003A2A1A /* SubTableViewCell.m */,
+				8344866E1AD771EC00A00CC3 /* MyPageViewController.h */,
+				8344866F1AD771EC00A00CC3 /* MyPageViewController.m */,
 				836E5E991ACF24BF0087D68C /* Main.storyboard */,
 				836E5E9C1ACF24BF0087D68C /* Images.xcassets */,
 				836E5E9E1ACF24BF0087D68C /* LaunchScreen.xib */,
@@ -222,9 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F948511ACF34D5003A2A1A /* SubTableViewCell.m in Sources */,
+				83F948401ACF26C4003A2A1A /* ViewController.m in Sources */,
 				836E5E921ACF24BF0087D68C /* AppDelegate.m in Sources */,
 				836E5E8F1ACF24BF0087D68C /* main.m in Sources */,
-				836E5E981ACF24BF0087D68C /* ViewController.m in Sources */,
+				834486701AD771EC00A00CC3 /* MyPageViewController.m in Sources */,
+				83F948451ACF26E7003A2A1A /* DTCustomColoredAccessory.m in Sources */,
+				83F948421ACF26C4003A2A1A /* SubTableViewController.m in Sources */,
+				83F948411ACF26C4003A2A1A /* TableViewController.m in Sources */,
 				836E5E951ACF24BF0087D68C /* PanGestureTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +379,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PanGestureTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PanGestureTest/PanGestureTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -359,9 +395,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PanGestureTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PanGestureTest/PanGestureTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -418,6 +459,7 @@
 				836E5EB11ACF24BF0087D68C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		836E5EB21ACF24BF0087D68C /* Build configuration list for PBXNativeTarget "PanGestureTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +468,7 @@
 				836E5EB41ACF24BF0087D68C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
